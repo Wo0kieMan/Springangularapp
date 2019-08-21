@@ -4,18 +4,13 @@
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Links -->
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a routerLink="users" class="btn btn-primary active" role="button" routerLinkActive="active">Users</a>
-      </li>
-      <li class="nav-item">
-        <a routerLink="adduser" class="btn btn-primary active" role="button" routerLinkActive="active">Add user</a>
-      </li>
       <li class="dropdown">
-        <button class="dropbtn">Dropdown</button>
+        <button class="dropbtn">Users
+          <i class="fa fa-caret-down"></i>
+        </button>
         <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a routerLink="users" class="btn btn-primary active" role="button" routerLinkActive="active">Show</a>
+          <a routerLink="adduser" class="btn btn-primary active" role="button" routerLinkActive="active">Add</a>
         </div>
       </li>
     </ul>
